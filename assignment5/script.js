@@ -60,3 +60,15 @@ function countvowels(name){
 }
 
 console.log(countvowels(name));
+
+// que 5 generate a random number from a range start to end 
+
+let start=100;
+let end =300;
+
+function random(start,end){
+    let diff=end-start +1;
+    let randomnum=Math.floor(Math.random() *diff)+start;
+    return randomnum
+}
+console.log(random(start,end));
