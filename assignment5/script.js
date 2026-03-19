@@ -31,3 +31,18 @@ function printunique(str){
 }
 
 console.log(printunique(str));
+
+// que make a function to print the longest country name 
+
+let country=["India","Nepal","Sri lanka","Japan","China"];
+
+function largestname(country){
+    let largest=country[0];
+    for(let i=1;i<country.length;i++){
+        if(country[i].length>largest.length){
+        largest=country[i];
+        }
+    }
+    return largest;
+}
+console.log(largestname(country))
