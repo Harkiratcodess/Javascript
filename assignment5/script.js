@@ -46,3 +46,17 @@ function largestname(country){
     return largest;
 }
 console.log(largestname(country))
+
+// que 4 count the vowels in the given string
+let name="harkirat singh";
+function countvowels(name){
+    let count =0;
+    for(let i=0;i<name.length;i++){
+        if(name.charAt(i)=="a"|| name.charAt(i)=="e"|| name.charAt(i)=="i"|| name.charAt(i)=="o"|| name.charAt(i)=="u"){
+            count++
+        }
+    }
+    return count;
+}
+
+console.log(countvowels(name));
