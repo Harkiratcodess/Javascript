@@ -14,3 +14,20 @@ function greaternum(arr, element)
 };
 
 greaternum(arr,element);
+
+
+//  que 2 print the uniqur element from a string
+let str="meownsddifsdsjdsm";
+
+function printunique(str){
+    let empty="";
+    for(let i =0;i<str.length;i++){
+        let current=str[i];
+        if(empty.indexOf(current)==-1){
+            empty+=current
+        }
+    }
+    return empty;
+}
+
+console.log(printunique(str));
