@@ -28,6 +28,7 @@ function add(num1, num2) {
 add(5, 3);
 add(-2, 4);
 
+// made a arrow function which tells the number is odd or even
 const number =(n)=>{
     if(n%2==0){
         return "even";
