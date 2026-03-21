@@ -56,3 +56,12 @@ setInterval(()=>{
     console.log("This is My JavaScript Repo");
 }
 ,2000);
+
+//  use of this with arrow function
+const greet={
+    message:"namaste",
+    greets: function(){
+        console.log(this.message);
+    }
+};
+greet.greets();
