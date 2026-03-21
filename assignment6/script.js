@@ -40,3 +40,14 @@ const number =(n)=>{
 };
 
 console.log(number(5))
+
+// set time out function
+console.log("Hello there ");
+
+setTimeout(()=>{
+    console.log("My JavaScript Repo");
+}
+,2000);
+
+    console.log("Welcome to ");
+
