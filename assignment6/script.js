@@ -10,7 +10,23 @@ catch(err){
 console.log("hello");
 console.log("Riet");
 console.log(num);
-console.log("Jai hind");   
+console.log("Jai hind"); 
+
+// question using try and catch  ( throw is used to manually create an error when something is wrong)
+function add(num1, num2) {
+    try {
+        if (num1<=0 || num2<=0) {
+            throw "number cant be negative";
+        }
+        console.log(num1 + num2);
+
+    } catch (err) {
+        console.log(err);
+    }
+}
+
+add(5, 3);
+add(-2, 4);
 
 const number =(n)=>{
     if(n%2==0){
