@@ -51,3 +51,8 @@ setTimeout(()=>{
 
     console.log("Welcome to ");
 
+// set time interval function
+setInterval(()=>{
+    console.log("This is My JavaScript Repo");
+}
+,2000);
