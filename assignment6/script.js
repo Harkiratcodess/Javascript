@@ -57,7 +57,7 @@ setInterval(()=>{
 }
 ,2000);
 
-//  use of this with arrow function
+//  use of this with function
 const greet={
     message:"namaste",
     greets: function(){
