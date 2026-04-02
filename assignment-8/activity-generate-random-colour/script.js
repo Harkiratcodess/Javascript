@@ -5,15 +5,15 @@ btn.addEventListener("click",function(){
     let randomcolour=changecolor();
     let h1=document.querySelector("h1");
     h1.innerText=randomcolour;
-    console.log("clour updated");
+    console.log("colour updated");
     let div=document.querySelector("div");
     div.style.backgroundColor=randomcolour;
     
 });
 function changecolor(){
-    let red=Math.floor(Math.random() *255);
-    let green=Math.floor(Math.random() *255);
-    let blue=Math.floor(Math.random () *255);
+    let red=Math.floor(Math.random() *256);
+    let green=Math.floor(Math.random() *256);
+    let blue=Math.floor(Math.random () *256);
     let colour = `rgb(${red}, ${green}, ${blue})`;
     return colour;
 }
