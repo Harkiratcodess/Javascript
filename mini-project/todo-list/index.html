@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tasks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>My Tasks</h1>
+            <p>Keep track of what matters</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-box">
+                <div class="num" id="totalCount">0</div>
+                <div class="label">Total</div>
+            </div>
+            <div class="stat-box">
+                <div class="num" id="pendingCount">0</div>
+                <div class="label">Pending</div>
+            </div>
+            <div class="stat-box">
+                <div class="num" id="doneCount">0</div>
+                <div class="label">Done</div>
+            </div>
+        </div>
+
+        <div class="input-row">
+            <input type="text" id="taskInput" placeholder="Write a task...">
+            <button class="add-btn" id="addBtn">Add</button>
+        </div>
+
+        <div class="section">
+            <div class="section-label">Pending</div>
+            <ul id="pendingList">
+                <p class="empty-msg" id="pendingEmpty">No pending tasks</p>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-label">Completed</div>
+            <ul id="completedList">
+                <p class="empty-msg" id="completedEmpty">Nothing completed yet</p>
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
